@@ -245,6 +245,10 @@ a{
     .header{
         flex-direction: column;
     }
+    footer{
+        height: 200;
+        font-size: 16px;
+    }
 }
 @media screen and (max-width:599px){
     .questions img{
@@ -320,10 +324,39 @@ a{
     }
 }
 @media screen and (max-width:390px){
-    .questions img{
-    max-width: 100px;
+    .questions{
+    flex-direction: column;
+    max-width: 390px;
+}
+.questions img{
+    max-width: 100%;
     border-radius: 8px;
-    }
+}
+.questions h1{
+    text-align: center;
+    font-weight: 400;
+    font-size: 17px;
+}
+.questions h2{
+    font-weight: 200;
+    color: darkgray;
+    font-size: 17px;
+}
+.questions h3{
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.questions button{
+    border: 0;
+    background-color: cornflowerblue;
+    color: azure;
+    padding: 10px;
+    justify-self: center;
+    width: 100%;
+    border-radius: 8px;
+    
+}
 }
 @media screen and (max-width:300px){
     .questions img{
