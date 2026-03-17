@@ -359,10 +359,6 @@ a{
 }
 }
 @media screen and (max-width:300px){
-    .questions img{
-    max-width: 70px;
-    border-radius: 8px;
-    }
   .card{
         width: 100%;
         max-width: none;
